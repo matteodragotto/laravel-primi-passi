@@ -16,8 +16,9 @@
   <header class="bg-primary-subtle d-flex justify-content-center align-items-center">
     <nav class="navbar">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Homepage</a>
-        <a class="navbar-brand" href="/products">Products</a>
+        <a class="navbar-brand" href="{{ route('home') }}">Home</a>
+        <a class="navbar-brand" href="{{ route('about') }}">About</a>
+        <a class="navbar-brand" href="{{ route('products') }}">Products</a>
       </div>
     </nav>
 
